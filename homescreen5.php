@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>The Town HTML CSS Template</title>
-    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
-    <link rel="stylesheet" href="slick/slick.css">
-    <link rel="stylesheet" href="slick/slick-theme.css">
-    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/templatemo-style.css" />
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
+    <link rel="stylesheet" href="magnific-popup.css">
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="templatemo-style.css" />
+    <link rel="icon" type="image/png" href="favicon.ico"/>
     <!--
   The Town
   https://templatemo.com/tm-525-the-town
@@ -153,7 +153,7 @@ if($group == "stam2"){
     ob_start(); // ensures anything dumped out will be caught
 
     // do stuff here
-    $url = 'http://bramt.veluwscollege.net/scouting/index.html'; 
+    $url = 'index.html'; 
 
     // clear out the output buffer
     while (ob_get_status()) 
@@ -217,7 +217,7 @@ if($group == "stam2"){
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="img/the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img">
+            <img src="the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img">
           </div>
           <div class="col-lg-6">
             <div class="tm-intro-text-container">
@@ -241,7 +241,7 @@ if($group == "stam2"){
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="img/the-town-02.jpg" alt="Image" class="img-fluid tm-intro-img">
+            <img src="the-town-02.jpg" alt="Image" class="img-fluid tm-intro-img">
           </div>
           <div class="col-lg-6">
             <div class="tm-intro-text-container">
@@ -263,7 +263,7 @@ if($group == "stam2"){
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="img/the-town-03.jpg" alt="Image" class="img-fluid tm-intro-img">
+            <img src="the-town-03.jpg" alt="Image" class="img-fluid tm-intro-img">
           </div>
           <div class="col-lg-6">
             <div class="tm-intro-text-container">
@@ -284,11 +284,11 @@ if($group == "stam2"){
       </div>
     </div></section>
     
-    <script src="js/jquery-1.9.1.min.js"></script>     
-    <script src="slick/slick.min.js"></script>
-    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>     
-    <script src="js/bootstrap.min.js"></script> --&gt; 
+    <script src="jquery-1.9.1.min.js"></script>     
+    <script src="slick.min.js"></script>
+    <script src="jquery.magnific-popup.min.js"></script>
+    <script src="jquery.singlePageNav.min.js"></script>     
+    <script src="bootstrap.min.js"></script> --&gt; 
     <script>
 
       function getOffSet(){
