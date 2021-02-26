@@ -3,7 +3,7 @@ if(isset($_GET["group"]))
     {
         $group = $_GET["group"];
     }else{
-    	header("Location: http://bramt.veluwscollege.net/scouting/cryptosoon/selectgroup.php");
+    	header("Location: http://bramt.veluwscollege.net/index.html");
     }
 
 session_start();
