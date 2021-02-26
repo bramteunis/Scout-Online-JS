@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>The Town HTML CSS Template</title>
-    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
-    <link rel="stylesheet" href="slick/slick.css">
-    <link rel="stylesheet" href="slick/slick-theme.css">
-    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/templatemo-style.css" />
-    <link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+    <link rel="stylesheet" href="https://bramt.veluwscollege.net/scouting/fontawesome-5.5/css/all.min.css" />
+    <link rel="stylesheet" href="https://bramt.veluwscollege.net/scouting/slick/slick.css">
+    <link rel="stylesheet" href="https://bramt.veluwscollege.net/scouting/slick/slick-theme.css">
+    <link rel="stylesheet" href="https://bramt.veluwscollege.net/scouting/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="https://bramt.veluwscollege.net/scouting/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://bramt.veluwscollege.net/scouting/css/templatemo-style.css" />
+    <link rel="icon" type="image/png" href="https://bramt.veluwscollege.net/scouting/images/icons/favicon.ico"/>
     <!--
 	The Town
 	https://templatemo.com/tm-525-the-town
@@ -154,7 +154,7 @@ debug_to_console($group);
     ob_start(); // ensures anything dumped out will be caught
 
     // do stuff here
-    $url = 'http://bramt.veluwscollege.net/scouting/index.php'; 
+    $url = 'index.php'; 
 
     // clear out the output buffer
     while (ob_get_status()) 
@@ -218,7 +218,7 @@ debug_to_console($group);
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="img/the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img">
+            <img src="https://bramt.veluwscollege.net/scouting/img/the-town-01.jpg" alt="Image" class="img-fluid tm-intro-img">
           </div>
           <div class="col-lg-6">
             <div class="tm-intro-text-container">
@@ -242,7 +242,7 @@ debug_to_console($group);
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="img/the-town-02.jpg" alt="Image" class="img-fluid tm-intro-img">
+            <img src="https://bramt.veluwscollege.net/scouting/img/the-town-02.jpg" alt="Image" class="img-fluid tm-intro-img">
           </div>
           <div class="col-lg-6">
             <div class="tm-intro-text-container">
@@ -264,7 +264,7 @@ debug_to_console($group);
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="img/the-town-03.jpg" alt="Image" class="img-fluid tm-intro-img">
+            <img src="https://bramt.veluwscollege.net/scouting/img/the-town-03.jpg" alt="Image" class="img-fluid tm-intro-img">
           </div>
           <div class="col-lg-6">
             <div class="tm-intro-text-container">
@@ -287,13 +287,13 @@ debug_to_console($group);
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="img/the-town-04.jpg" alt="Image" class="img-fluid tm-intro-img">
+            <img src="https://bramt.veluwscollege.net/scouting/img/the-town-04.jpg" alt="Image" class="img-fluid tm-intro-img">
           </div>
           <div class="col-lg-6">
             <div class="tm-intro-text-container">
                 <div class="tm-next">
                   <br><br><br><br>
-                  <a href="cryptosoon/selectgroup.php" class="tm-intro-text tm-btn-primary">Uitloggen</a>
+                  <a href="selectgroup.php" class="tm-intro-text tm-btn-primary">Uitloggen</a>
                 </div><br><br><br><br>
             </div>
           </div>
@@ -301,11 +301,11 @@ debug_to_console($group);
       </div>
     </div></section>
     
-    <script src="js/jquery-1.9.1.min.js"></script>     
-    <script src="slick/slick.min.js"></script>
-    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery.singlePageNav.min.js"></script>     
-    <script src="js/bootstrap.min.js"></script> --&gt; 
+    <script src="https://bramt.veluwscollege.net/scouting/js/jquery-1.9.1.min.js"></script>     
+    <script src="https://bramt.veluwscollege.net/scouting/slick/slick.min.js"></script>
+    <script src="https://bramt.veluwscollege.net/scouting/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="https://bramt.veluwscollege.net/scouting/js/jquery.singlePageNav.min.js"></script>     
+    <script src="https://bramt.veluwscollege.net/scouting/js/bootstrap.min.js"></script> --&gt; 
     <script>
 
       function getOffSet(){
