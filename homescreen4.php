@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>The Town HTML CSS Template</title>
-    <link rel="stylesheet" href="https://bramt.veluwscollege.net/scouting/fontawesome-5.5/css/all.min.css" />
-    <link rel="stylesheet" href="https://bramt.veluwscollege.net/scouting/slick/slick.css">
-    <link rel="stylesheet" href="https://bramt.veluwscollege.net/scouting/slick/slick-theme.css">
+    <link rel="stylesheet" href="all.min.css" />
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="slick-theme.css">
     <link rel="stylesheet" href="https://bramt.veluwscollege.net/scouting/magnific-popup/magnific-popup.css">
     <link rel="stylesheet" href="https://bramt.veluwscollege.net/scouting/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://bramt.veluwscollege.net/scouting/css/templatemo-style.css" />
-    <link rel="icon" type="image/png" href="https://bramt.veluwscollege.net/scouting/images/icons/favicon.ico"/>
+    <link rel="icon" type="image/png" href="favicon.ico"/>
     <!--
 	The Town
 	https://templatemo.com/tm-525-the-town
