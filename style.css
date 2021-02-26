@@ -782,7 +782,7 @@ B. Helpers
 -------------------------------------------*/
 
 .ts-shape-mask__up:before {
-    background-image: url("../../assets/img/bg-shape-mask-up.png");
+    background-image: url("bg-shape-mask-up.png");
     background-size: cover;
     content: "";
     left: 0;
@@ -793,7 +793,7 @@ B. Helpers
 }
 
 .ts-shape-mask__down:after {
-    background-image: url("../../assets/img/bg-shape-mask-down.png");
+    background-image: url("bg-shape-mask-down.png");
     background-size: cover;
     bottom: -0.0625rem;
     content: "";
@@ -1017,7 +1017,7 @@ blockquote {
     font-size: 1.125rem;
     position: relative;
     background-size: contain;
-    background-image: url("../../assets/svg/bubble.svg");
+    background-image: url("bubble.svg");
     background-repeat: no-repeat;
     background-position: center 3.75rem;
     padding-bottom: 3.75rem;
@@ -1510,7 +1510,7 @@ body.has-loading-screen:before {
 }
 
 body.has-loading-screen:after {
-    content: url("../../assets/img/loading.svg");
+    content: url("loading.svg");
     height: 2.5rem;
     width: 2.5rem;
     position: fixed;
