@@ -180,7 +180,7 @@ if($group == "stam2"){
       <nav class="navbar navbar-expand-md tm-navbar" id="tmNav">              
         <div class="container">   
           <div class="tm-next">
-              <a href="index.html" class="navbar-brand">Uitloggen</a>
+              <a href="#uitloggen" class="navbar-brand">Uitloggen</a>
           </div>             
             
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
@@ -277,6 +277,23 @@ if($group == "stam2"){
                   Al heb je nog ideeën over wat beter kan, laat het weten want dan word dit aangepast of toegevoegd. </p>
                 <div class="tm-next">
                   <a href="aanafmelden.php" class="tm-intro-text tm-btn-primary">Zokaportaal</a>
+                </div><br><br><br><br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div></section>
+    <section id="uitloggen" class="tm-section-pad-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="the-town-04.jpg" alt="Image" class="img-fluid tm-intro-img">
+          </div>
+          <div class="col-lg-6">
+            <div class="tm-intro-text-container">
+                <div class="tm-next">
+                  <br><br><br><br>
+                  <a href="selectgroup.php" class="tm-intro-text tm-btn-primary">Uitloggen</a>
                 </div><br><br><br><br>
             </div>
           </div>
