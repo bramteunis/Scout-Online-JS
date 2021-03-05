@@ -193,7 +193,7 @@
                 </div>
                 <!--end clearfix-->
             </footer>
-            <a href='https://play.google.com/store/apps/details?id=org.scoutonline.scoutonline&hl=nl&gl=US&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Ontdek het op Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/nl_badge_web_generic.png'/></a>
+            <a href='https://bit.ly/389Mjbx'><img alt='Ontdek het op Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/nl_badge_web_generic.png'/></a>
             
         </div>
         
