@@ -193,7 +193,7 @@
                 </div>
                 <!--end clearfix-->
             </footer>
-            <a href='https://scoutonlinesite1.herokuapp.com/doorlink.html'><img alt='Ontdek het op Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/nl_badge_web_generic.png'/></a>
+            <a href='https://scoutonlinesite1.herokuapp.com/doorlink.php'><img alt='Ontdek het op Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/nl_badge_web_generic.png'/></a>
             
         </div>
         
