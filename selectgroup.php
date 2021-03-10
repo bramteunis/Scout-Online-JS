@@ -192,7 +192,7 @@
                 </div>
                 <!--end clearfix-->
             </footer>
-            <a href='https://play.google.com/store/apps/details?id=org.scoutonline.scoutonline&hl=nl&gl=US'><img alt='Ontdek het op Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/nl_badge_web_generic.png' width="200" height="40"/></a>
+            <a href='https://play.google.com/store/apps/details?id=org.scoutonline.scoutonline&hl=nl&gl=US'><img alt='Ontdek het op Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/nl_badge_web_generic.png' width="200" height="80"/></a>
             
         </div>
         
