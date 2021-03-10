@@ -179,10 +179,9 @@
                 <div class="clearfix py-4">
                     <div class="float-none float-sm-left">
                         <div class="ts-social-icons">
-                            <a href="#" class="fab fa-facebook"></a>
-                            <a href="#" class="fab fa-twitter"></a>
-                            <a href="#" class="fab fa-pinterest"></a>
-                            <a href="#" class="fab fa-instagram"></a>
+                            <a href="https://www.instagram.com/sw3lbp/" class="fab fa-facebook"></a>
+                            <a href="https://twitter.com/sw3lbp?lang=nl" class="fab fa-twitter"></a>
+                            <a href="https://www.instagram.com/sw3lbp/" class="fab fa-instagram"></a>
                         </div>
                     </div>
                     <!--end social-icons-->
@@ -193,7 +192,7 @@
                 </div>
                 <!--end clearfix-->
             </footer>
-            <a href='https://scoutonlinesite1.herokuapp.com/doorlink.php'><img alt='Ontdek het op Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/nl_badge_web_generic.png'/></a>
+            <a href='https://play.google.com/store/apps/details?id=org.scoutonline.scoutonline&hl=nl&gl=US'><img alt='Ontdek het op Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/nl_badge_web_generic.png' width="200" height="40"/></a>
             
         </div>
         
