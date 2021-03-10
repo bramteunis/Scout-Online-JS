@@ -9,6 +9,7 @@
 </style><style>.gm-style .gm-style-cc span,.gm-style .gm-style-cc a,.gm-style .gm-style-mtc div{font-size:10px;box-sizing:border-box}
 </style><style>@media print {  .gm-style .gmnoprint, .gmnoprint {    display:none  }}@media screen {  .gm-style .gmnoscreen, .gmnoscreen {    display:none  }}</style><style>.gm-style-pbc{transition:opacity ease-in-out;background-color:rgba(0,0,0,0.45);text-align:center}.gm-style-pbt{font-size:22px;color:white;font-family:Roboto,Arial,sans-serif;position:relative;margin:0;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
 </style><style>.gm-style img{max-width: none;}.gm-style {font: 400 11px Roboto, Arial, sans-serif; text-decoration: none;}</style>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="author" content="ThemeStarz">
@@ -193,7 +194,7 @@
                 <!--end clearfix-->
             </footer>
             <a href='https://play.google.com/store/apps/details?id=org.scoutonline.scoutonline&hl=nl&gl=US'><img alt='Ontdek het op Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/nl_badge_web_generic.png' width="200" height="80"/></a>
-            
+            <button class="btn"><i class="fa fa-download"></i> Download voor windows</button>
         </div>
         
 
