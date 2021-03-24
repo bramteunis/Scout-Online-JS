@@ -162,10 +162,10 @@ mysqli_close($connectie);
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="#"></a></li>
+                    <li><a href="volgendeopkomst.php">Terug</a></li>
                 </ul>
             </div>
             <span class="navTrigger">
@@ -360,7 +360,7 @@ mysqli_close($connectie);
 		<style type="text/css">
 			.myButton {
 				position: absolute;
-				left: 20%;
+				left: 15%;
 				top: 40%;
 				box-shadow: -2px 14px 14px -3px #3dc21b;
 				background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
@@ -387,7 +387,7 @@ mysqli_close($connectie);
 			}
 			.myButton2 {
 				position: absolute;
-				left: 20%;
+				left: 15%;
 				top: 60%;
 				box-shadow: -2px 14px 14px -3px #8a2a21;
 				background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
@@ -457,8 +457,8 @@ mysqli_close($connectie);
 				  border-radius: 4px;
 				  background-color: #f8f8f8;
 				  resize: none;
-				  opacity: 0.5;
-				  font-size: 150%;
+				  opacity: 0.75;
+				  font-size: 200%;
 			}
 			#text2{
 					left: 35%;
@@ -473,8 +473,8 @@ mysqli_close($connectie);
 				  border-radius: 4px;
 				  background-color: #f8f8f8;
 				  resize: none;
-				  opacity: 0.5;
-				  font-size: 150%;
+				  opacity: 0.75;
+				  font-size: 250%;
 			}
 			#name{
 				position: absolute;
