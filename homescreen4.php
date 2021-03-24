@@ -118,6 +118,8 @@ if($group == "stam2"){
 
   $getal1 = $_POST["email"];
   $getal2 = $_POST["pass"];
+  $getal3 = strtolower($getal1)
+  $getal4 = ucfirst($getal1)
   $a[] = $getal1;
   $a[] = $getal2;
   $_SESSION['email'] = $getal1;
@@ -134,7 +136,7 @@ debug_to_console($group);
   
   while($rij = mysqli_fetch_array($resultaat)){
     #echo "Naam = ".$getal1." ww = ".$getal2;
-    if ($getal1 == $rij[1]){
+    if ($getal1 == $rij[1] or $getal3 == $rij[1] or $getal4 == $rij[1]){
       if ($getal2 == $rij[2]) {
         $gevonden = "Gevonden";
         debug_to_console($gevonden);
