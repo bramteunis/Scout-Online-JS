@@ -319,7 +319,7 @@ mysqli_close($connectie);
 		  
 		  while($rij = mysqli_fetch_array($resultaat)){
 		  	$course_description3 = nl2br($rij[0]);
-		  	$bodytag = str_replace(";", "<br />", $course_description3);
+		  	$bodytag = str_replace(";", ".", $course_description3);
 		    echo "<textarea id='text1' name='uitleg' rows='4' cols='50'>{$bodytag}</textarea>";
 
 		  }
