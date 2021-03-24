@@ -260,7 +260,7 @@ mysqli_close($connectie);
     } else {
       echo "Error updating record: " . $connectie->error;
     }
-    $sql2 = "UPDATE {$group}_opkomst SET opkomstbechrijving='Hallo allemaal, <br />Deze week hebben we opkomst op {$dag}. <br />De opkomst duurt van ({$tijd}).<br />Tijdens deze opkomst gaan we {$activiteit}.<br />Zorg er voor dat je je op tijd hebt afgemeld,<br />zodat {$organisatoren} weten wie er aanwezig / afwezig zijn.{$opmerking}<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />' WHERE regel='{$week}'";
+    $sql2 = "UPDATE {$group}_opkomst SET opkomstbechrijving='Hallo allemaal, ;We hebben opkomst op {$dag} van ({$tijd}).; We gaan{$activiteit} dus zorg dat je je afmeldt of aanmeldt.; {$organisatoren} meldt: {$opmerking};;;;;;;;;;;;;;;' WHERE regel='{$week}'";
     
     if ($connectie->query($sql2) === TRUE) {
       echo "Record2 updated successfully";
