@@ -363,8 +363,8 @@ if(isset($_GET["week"]))
 				  border-radius: 4px;
 				  background-color: #f8f8f8;
 				  resize: none;
-				  opacity: 0.5;
-				  font-size: 150%;
+				  opacity: 0.75;
+				  font-size: 180%;
 			}
 			#name{
 				position: absolute;
