@@ -110,21 +110,25 @@ $boodschap .= "query gelukt";
 }
 
 
+$getal3 = strtolower($getal1);
+$getal4 = ucfirst($getal1);
+
 while($rij = mysqli_fetch_array($resultaat)){
-#echo "Naam = ".$getal1." ww = ".$getal2;
-if ($getal1 == $rij[1]){
-  if ($getal2 == $rij[2]) {
-    $gevonden = "Gevonden";
-    debug_to_console($gevonden);
-    break;
-  }else{
-    $gevonden = "Niet Gevonden";
-    debug_to_console($gevonden);
+    #echo "Naam = ".$getal1." ww = ".$getal2;
+    if ($getal1 == $rij[1] or $getal3 == $rij[1] or $getal4 == $rij[1]){
+      if ($getal2 == $rij[2]) {
+        $gevonden = "Gevonden";
+        debug_to_console($gevonden);
+        break;
+      }else{
+        $gevonden = "Niet Gevonden";
+        debug_to_console($gevonden);
+      }
+    }else{
+      $gevonden = "Niet Gevonden";
+      debug_to_console($gevonden);
+    }
   }
-}else{
-  $gevonden = "Niet Gevonden";
-  debug_to_console($gevonden);
-}
 
 }
 
