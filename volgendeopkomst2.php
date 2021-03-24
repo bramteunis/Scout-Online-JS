@@ -315,8 +315,8 @@ mysqli_close($connectie);
 		  
 		  while($rij = mysqli_fetch_array($resultaat)){
 		  	$course_description3 = nl2br($rij[0]);
-		  	
-		    echo "<textarea id='text1' name='uitleg' rows='4' cols='50'>{$course_description3}</textarea>";
+		  	$bodytag = str_replace(";", ".", $course_description3);
+		    echo "<textarea id='text1' name='uitleg' rows='4' cols='50'>{$bodytag}</textarea>";
 
 		  }
 
