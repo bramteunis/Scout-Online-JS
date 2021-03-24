@@ -132,7 +132,7 @@ while($rij = mysqli_fetch_array($resultaat)){
     }
   }
 
-}
+
 
 if ($gevonden != "Gevonden") {
 ob_start(); // ensures anything dumped out will be caught
