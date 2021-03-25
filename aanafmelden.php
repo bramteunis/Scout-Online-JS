@@ -166,8 +166,8 @@ mysqli_close($connectie);
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
-                    <li><a href="aanafmelden.php" style="color:green;"><b>Organisatie</b></a></li>
-                    <li><a href="volgendeopkomst.php">Aan / afmelden</a></li>
+                    <li><a href="aanafmelden.php" style="color:green;"><b>Aan / afmelden</b></a></li>
+                    <li><a href="volgendeopkomst.php">Organisatie</a></li>
                     <li><a href="zoka.php">Zoka</a></li>
                     <li><a href="homescreen5.php">Terug</a></li>
                 </ul>
@@ -267,11 +267,11 @@ mysqli_close($connectie);
 					else{$beginarray4 = $beginarray3." December"." tot ".$eindarray3." December";}
 				}
 	    		if($week == $i){
-	    			echo "<li class='active'><a href='aanafmelden2.php?week={$i}'>{$beginarray4}</a></li>";
+	    			echo "<li class='active'><a href='volgendeopkomst2.php?week={$i}'>{$beginarray4}</a></li>";
 	    		}
 	    		
 	    		else{
-	    			echo "<li><a href='aanafmelden2.php?week={$i}'>{$beginarray4}</a></li>";
+	    			echo "<li><a href='volgendeopkomst2.php?week={$i}'>{$beginarray4}</a></li>";
 	    		}
 	    		
 	    		if ($week >= 49 and $i == 53 and $value1 == 0) {
@@ -292,7 +292,7 @@ mysqli_close($connectie);
 							else{$beginarray4 = $beginarray3." Januari"." tot ".$eindarray3." Januari";}
 						}
 						
-			    		echo "<li><a href='aanafmelden2.php?week={$z}'>{$beginarray4}</a></li>";
+			    		echo "<li><a href='volgendeopkomst2.php?week={$z}'>{$beginarray4}</a></li>";
 			    		
 					}
 	    		}
