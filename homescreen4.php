@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>The Town HTML CSS Template</title>
+    <title>Scout-Online | SW3LBP</title>
     <link rel="stylesheet" href="all.min.css" />
     <link rel="stylesheet" href="slick.css">
     <link rel="stylesheet" href="slick-theme.css">
