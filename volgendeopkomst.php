@@ -168,8 +168,8 @@ mysqli_close($connectie);
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
-                    <li><a href="aanafmelden.php">Organisatie</a></li>
-                    <li><a href="volgendeopkomst.php" style="color:green;"><b>Aan / Afmelden</b></a></li>
+                    <li><a href="aanafmelden.php">Aan/afmelden</a></li>
+                    <li><a href="volgendeopkomst.php" style="color:green;"><b>Organisatie</b></a></li>
                     <li><a href="zoka.php">Zoka</a></li>
                     <li><a href="homescreen5.php">Terug</a></li>
                 </ul>
@@ -266,11 +266,11 @@ mysqli_close($connectie);
 	    			session_start();
 					  $_SESSION['email'] = $getal1;
 					  $_SESSION['password'] = $getal2;
-	    			echo "<li class='active'><a href='volgendeopkomst2.php?week={$i}'>{$beginarray4}</a></li>";
+	    			echo "<li class='active'><a href='aanafmelden2.php?week={$i}'>{$beginarray4}</a></li>";
 	    		}
 	    		
 	    		else{
-	    			echo "<li><a href='volgendeopkomst2.php?week={$i}'>{$beginarray4}</a></li>";
+	    			echo "<li><a href='aanafmelden2.php?week={$i}'>{$beginarray4}</a></li>";
 	    		}
 	    		
 	    		if ($week >= 49 and $i == 53 and $value1 == 0) {
