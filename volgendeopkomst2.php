@@ -169,7 +169,7 @@ mysqli_close($connectie);
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>
-                    <li><a href="volgendeopkomst.php">Terug</a></li>
+                    <li><a href="aanafmelden.php">Terug</a></li>
                 </ul>
             </div>
             <span class="navTrigger">
