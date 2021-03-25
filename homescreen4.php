@@ -168,7 +168,7 @@ debug_to_console($group);
     }
 
     // no redirect
-    header( "Location: $url" );
+    
   }
   
 
