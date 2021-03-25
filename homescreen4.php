@@ -118,11 +118,14 @@ if($group == "stam2"){
 
   $getal1 = $_POST["email"];
   $getal2 = $_POST["pass"];
-  $getal3 = strtolower($getal1);
-  $getal4 = ucfirst($getal1);
+  $getal5 = iconv('UTF-8', 'ISO-8859-1//TRANSLIT//IGNORE', $getal1);
+  $getal3 = strtolower($getal5);
+  $getal4 = ucfirst($getal5);
+  
+	  
   $a[] = $getal1;
   $a[] = $getal2;
-  $_SESSION['email'] = $getal1;
+  $_SESSION['email'] = $getal5;
   $_SESSION['password'] = $getal2;
 debug_to_console($group);
   $query = "SELECT * FROM {$group}";
