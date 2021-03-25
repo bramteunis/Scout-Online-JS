@@ -121,7 +121,7 @@ if($group == "stam2"){
   $getal5 = iconv('UTF-8', 'ISO-8859-1//TRANSLIT//IGNORE', $getal1);
   $getal3 = strtolower($getal5);
   $getal4 = ucfirst($getal5);
-  debug_to_console($getal5);
+  debug_to_console($getal1);
   debug_to_console($getal4);  
   debug_to_console($getal3);
   $a[] = $getal1;
