@@ -27,7 +27,7 @@
 
 session_start();
 
-$group = $_SESSION['group'];
+$group = "ea757";
 debug_to_console($group);
 if($group == "beversochtend"){
   $server = "eu-cdbr-west-03.cleardb.net";
