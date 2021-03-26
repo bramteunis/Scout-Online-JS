@@ -28,7 +28,7 @@
 session_start();
 
 $group = $_SESSION['group'];
-
+debug_to_console($group);
 if($group == "beversochtend"){
   $server = "eu-cdbr-west-03.cleardb.net";
   $database = "heroku_b6ccf5347f986b7";
