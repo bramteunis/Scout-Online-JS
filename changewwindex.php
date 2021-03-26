@@ -53,7 +53,7 @@
 					
 
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
+						<button onclick="window.location.href='changewwcheck1.php'" class="login100-form-btn">
 							Volgende
 						</button>
 					</div>
