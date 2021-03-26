@@ -144,7 +144,7 @@ if($group == "stam2"){
         ob_start(); // ensures anything dumped out will be caught
 
         // do stuff here
-        $url = 'changewwindex.php'; 
+        $url = 'www.google.nl'; 
 
         // clear out the output buffer
         while (ob_get_status()) 
