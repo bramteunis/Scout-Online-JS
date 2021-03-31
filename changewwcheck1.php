@@ -126,7 +126,7 @@ if($group == "stam2"){
   $a[] = $oudwachtwoord;
   $_SESSION['oudgebruiker'] = $getal5;
   $_SESSION['oudwachtwoord'] = $oudwachtwoord;
-  echo $getal5;
+  echo "Fucking test";
   echo $oudwachtwoord;
   $query = "SELECT * FROM {$group}";
 
