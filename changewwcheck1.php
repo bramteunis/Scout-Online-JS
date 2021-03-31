@@ -126,6 +126,8 @@ if($group == "stam2"){
   $a[] = $oudwachtwoord;
   $_SESSION['oudgebruiker'] = $getal5;
   $_SESSION['oudwachtwoord'] = $oudwachtwoord;
+  echo $getal5;
+  echo $oudwachtwoord;
   $query = "SELECT * FROM {$group}";
 
   if(!$resultaat = mysqli_query($connectie, $query) ) {
@@ -153,7 +155,7 @@ if($group == "stam2"){
         }
 
         // no redirect
-        header( "Location: $url" );    
+        //header( "Location: $url" );    
         
         break;
       }else{
@@ -179,7 +181,7 @@ if($group == "stam2"){
     }
 
     // no redirect
-   header( "Location: $url" );    
+   //header( "Location: $url" );    
   }
   
 
