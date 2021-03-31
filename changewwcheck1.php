@@ -1,6 +1,6 @@
 
 <html lang="nl">
-  <head>
+  <body>
     <meta charset="UTF-8" />
   <?php 
 	  echo "test";
@@ -178,5 +178,5 @@ if($group == "stam2"){
   
   
 ?>
-</head>
+</body>
 </html>
