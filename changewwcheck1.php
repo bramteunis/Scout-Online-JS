@@ -1,4 +1,4 @@
-<!DOCTYPE php>
+
 <html lang="nl">
   <head>
     <meta charset="UTF-8" />
