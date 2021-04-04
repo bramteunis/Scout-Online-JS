@@ -484,7 +484,7 @@ debug_to_console($group);
     </script>
   	<style>
 		.tm-navbar {
-    /* position: fixed; */
+    position: absolute;
     width: 100%;
     z-index: 1000;
     background-color: transparent;
