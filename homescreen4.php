@@ -482,6 +482,27 @@ debug_to_console($group);
         });
       });
     </script>
-  
+  	<style>
+		body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    background-color: #1F2150;
+		}
+		.tm-text-primary {
+		    color: #FE8383;
+		}
+		.tm-btn-primary {
+		    color: white;
+		    background-color: #FE8383;
+		    padding: 14px 35px;
+		    border-radius: 30px;
+		    font-weight: bold;
+		}
+	      </style>
 </body>
 </html>
