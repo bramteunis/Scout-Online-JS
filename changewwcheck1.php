@@ -132,7 +132,7 @@ if($group == "stam2"){
         ob_start(); // ensures anything dumped out will be caught
 
         // do stuff here
-        $url = 'changewwindex2.php'; 
+        $url = 'https://scoutonlinesite1.herokuapp.com/changewwindex2.php'; 
 
         // clear out the output buffer
         while (ob_get_status()) 
@@ -158,7 +158,7 @@ if($group == "stam2"){
     ob_start(); // ensures anything dumped out will be caught
 
     // do stuff here
-    $url = 'changewwindex.php'; 
+    $url = 'https://scoutonlinesite1.herokuapp.com/changewwindex.php'; 
 
     // clear out the output buffer
     while (ob_get_status()) 
