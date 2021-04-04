@@ -156,7 +156,7 @@ header( "Location: $url" );
 mysqli_close($connectie);
 ?>
 <?php
-  header("Location: http://bramt.veluwscollege.net/scouting/aanafmelden4.php");
+  header("Location: aanafmelden4.php");
   if($group == "beversochtend"){
     $server = "eu-cdbr-west-03.cleardb.net";
     $database = "heroku_b6ccf5347f986b7";
