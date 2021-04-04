@@ -283,7 +283,7 @@ debug_to_console($group);
                 <p class="mb-5 tm-intro-text">
                   Al heb je nog ideeën over wat beter kan, laat het weten want dan word dit aangepast of toegevoegd. </p>
                 <div class="tm-next">
-                  <a href="aanafmelden.php" class="tm-intro-text tm-btn-primary">Zokaportaal</a>
+                  <a href="changewwindex.php" class="tm-intro-text tm-btn-primary">Zokaportaal</a>
                 </div>
             </div>
           </div>
