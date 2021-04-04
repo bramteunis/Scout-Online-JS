@@ -133,7 +133,7 @@ if($group == "stam2"){
         ob_start(); // ensures anything dumped out will be caught
 
         // do stuff here
-        $url = 'https://www.google.nl'; 
+        $url = 'changewwindex2.php'; 
 
         // clear out the output buffer
         while (ob_get_status()) 
@@ -159,7 +159,7 @@ if($group == "stam2"){
     ob_start(); // ensures anything dumped out will be caught
 
     // do stuff here
-    $url = 'index.php'; 
+    $url = 'changewwindex.php'; 
 
     // clear out the output buffer
     while (ob_get_status()) 
@@ -168,7 +168,7 @@ if($group == "stam2"){
     }
 
     // no redirect
-   //header( "Location: $url" );    
+   header( "Location: $url" );    
   }
   
 
