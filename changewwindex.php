@@ -30,7 +30,7 @@
 	<div class="limiter">
 		<div class="container-login100" style="background-image: url('changewwbg-01.jpg');">
 			<div class="wrap-login100">
-				<form method="POST" class="login100-form validate-form" action="changewwcheck2.php">
+				<form method="POST" class="login100-form validate-form" action="changewwcheck1.php">
 					<span class="login100-form-logo">
 						<img src="https://scoutonlinesite1.herokuapp.com/Streamlineicons-Streamline-Ux-Free-Ecology-globe.ico" alt="W3Schools.com" width="120" height="120">
 
