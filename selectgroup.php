@@ -163,7 +163,7 @@
                         <!--Count Down-->
                         <div class="col-md-6">
                             <div class="text-center my-4">
-                                <div class="ts-count-down" data-date="March 21, 2021 23:59:59"><div><span class="ts-cc-number">26 </span><span class="ts-cc-description">Days</span></div><div><span class="ts-cc-number">10 </span><span class="ts-cc-description">Hours</span></div><div><span class="ts-cc-number">35 </span><span class="ts-cc-description">Minutes</span></div><div><span class="ts-cc-number">45 </span><span class="ts-cc-description">Seconds</span></div></div>
+                                <div class="ts-count-down" data-date="April 10, 2021 23:59:59"><div><span class="ts-cc-number">26 </span><span class="ts-cc-description">Days</span></div><div><span class="ts-cc-number">10 </span><span class="ts-cc-description">Hours</span></div><div><span class="ts-cc-number">35 </span><span class="ts-cc-description">Minutes</span></div><div><span class="ts-cc-number">45 </span><span class="ts-cc-description">Seconds</span></div></div>
                                 <!--end ts-count-down-->
                             </div>
                         </div>
@@ -195,8 +195,8 @@
             </footer>
             <a href='https://play.google.com/store/apps/details?id=org.scoutonline.scoutonline&hl=nl&gl=US'><img alt='Ontdek het op Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/nl_badge_web_generic.png' width="200" height="80"/></a>
             <button  onclick="location.href='https://drive.google.com/uc?id=1er2p0ZA2H2MFYE9eMq1kdyyRGhJkcYE3&export=download/usp=sharing'" class="btn"><i class="fa fa-download"></i> Download voor Windows</button>
-	    <button  onclick="location.href='https://drive.google.com/uc?id=1jOVoK_qBjodPUfrrR-2PhxaJVhgW4THi&export=download/usp=sharing'" class="btn"><i class="fa fa-download"></i> Download voor Mac</button>
-		
+	    <!--  <button  onclick="location.href='https://drive.google.com/uc?id=1jOVoK_qBjodPUfrrR-2PhxaJVhgW4THi&export=download/usp=sharing'" class="btn"><i class="fa fa-download"></i> Download voor Mac</button>
+		-->
         </div>
         
 
