@@ -140,7 +140,7 @@ if ($gevonden != "Gevonden") {
 ob_start(); // ensures anything dumped out will be caught
 
 // do stuff here
-$url = 'http://bramt.veluwscollege.net/scouting/index.html'; 
+$url = 'index.php'; 
 
 // clear out the output buffer
 while (ob_get_status()) 
@@ -149,7 +149,7 @@ while (ob_get_status())
 }
 
 // no redirect
-//header( "Location: $url" );
+header( "Location: $url" );
 }
 
 
