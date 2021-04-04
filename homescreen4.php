@@ -200,7 +200,10 @@ debug_to_console($group);
               </li>
               <li class="nav-item">
                   <a class="nav-link tm-nav-link" href="#zoka">Zoka</a>
-              </li>                    
+              </li>       
+	      <li class="nav-item">
+                  <a class="nav-link tm-nav-link" href="#instellingen">Instellingen</a>
+              </li>  
             </ul>
           </div>        
 
@@ -281,6 +284,29 @@ debug_to_console($group);
                   Al heb je nog ideeën over wat beter kan, laat het weten want dan word dit aangepast of toegevoegd. </p>
                 <div class="tm-next">
                   <a href="aanafmelden.php" class="tm-intro-text tm-btn-primary">Zokaportaal</a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     <section id="instellingen" class="tm-section-pad-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="the-town-05.jpg" alt="Image" class="img-fluid tm-intro-img">
+          </div>
+          <div class="col-lg-6">
+            <div class="tm-intro-text-container">
+                <h2 class="tm-text-primary mb-4 tm-section-title">Instellingen</h2>
+                <p class="mb-4 tm-intro-text">
+                  Hier kun je al je instellingen aanpassen en scout-online je eigen stijl geven. 
+                </p>
+                <a class="nav-link tm-nav-link" href="aanafmelden.php">Aan/afmelden</a>
+
+                <p class="mb-5 tm-intro-text">
+                  Al heb je nog ideeën over wat beter kan, laat het weten want dan word dit aangepast of toegevoegd. </p>
+                <div class="tm-next">
+                  <a href="aanafmelden.php" class="tm-intro-text tm-btn-primary">Instellingen</a>
                 </div>
             </div>
           </div>
