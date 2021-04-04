@@ -149,7 +149,7 @@ while (ob_get_status())
 }
 
 // no redirect
-header( "Location: $url" );
+//header( "Location: $url" );
 }
 
 
