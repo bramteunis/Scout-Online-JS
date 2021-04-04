@@ -2,6 +2,11 @@
 session_start();
   $group = $_SESSION['group'];
 
+if(isset($_GET["week"]))
+    {
+        $week = $_GET["week"];
+    }
+
 function debug_to_console($data) {
     $output = $data;
     if (is_array($output))
@@ -168,7 +173,7 @@ mysqli_close($connectie);
                 <ul class="navlinks">
                     <li><a href="#"></a></li>
                     <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
+                    <?php echo "<li><a href='aanwezigen2.php?week={$week}'>Aanwezigen</a></li>" ?>
                     <li><a href="aanafmelden.php">Terug</a></li>
                 </ul>
             </div>
