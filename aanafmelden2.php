@@ -377,7 +377,7 @@ if(isset($_GET["week"]))
 				  margin: 8px 0;
 				  box-sizing: border-box;
 				  outline: none;
-				 opacity: 0.75;
+				 opacity: 1;
 					transition: border-color 0.2s;
 			}
 			::placeholder {
@@ -401,7 +401,7 @@ if(isset($_GET["week"]))
 				  margin: 8px 0;
 				  box-sizing: border-box;
 				  outline: none;
-				opacity: 0.75;
+				opacity:  1;
 				color:black;
 					transition: border-color 0.2s;
 			}
@@ -423,7 +423,7 @@ if(isset($_GET["week"]))
 				  box-sizing: border-box;
 				  outline: none;
 				 background-color: #f8f8f8;
-				opacity: 0.75;
+				opacity:  1;
 					transition: border-color 0.2s;
 			}
 			#name3:focus{
@@ -444,7 +444,7 @@ if(isset($_GET["week"]))
 				  box-sizing: border-box;
 				  outline: none;
 				 background-color: #f8f8f8;
-				opacity: 0.75;
+				opacity: 1;
 					transition: border-color 0.2s;
 			}
 			#name4:focus{
@@ -465,7 +465,7 @@ if(isset($_GET["week"]))
 				  box-sizing: border-box;
 				  outline: none;
 				 background-color: #f8f8f8;
-				opacity: 0.75;
+				opacity:  1;
 					transition: border-color 0.2s;
 			}
 			#name5:focus{
