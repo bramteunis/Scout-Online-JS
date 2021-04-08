@@ -371,7 +371,6 @@ if(isset($_GET["week"]))
 				width: 20%;
 				left: 10%;
 				top: 25%;
-				color: #ffffff;
 				border: 3px solid #ccc;
 				padding: 12px 20px;
 				  margin: 8px 0;
@@ -397,7 +396,6 @@ if(isset($_GET["week"]))
 				width: 20%;
 				left: 10%;
 				top: 35%;
-				color: #9b9b9b;
 				border: 3px solid #ccc;
 				padding: 12px 20px;
 				  margin: 8px 0;
@@ -419,7 +417,6 @@ if(isset($_GET["week"]))
 				width: 20%;
 				left: 10%;
 				top: 45%;
-				color: #9b9b9b;
 				border: 3px solid #ccc;
 				padding: 12px 20px;
 				  margin: 8px 0;
@@ -441,7 +438,6 @@ if(isset($_GET["week"]))
 				width: 20%;
 				left: 10%;
 				top: 55%;
-				color: #9b9b9b;
 				border: 3px solid #ccc;
 				padding: 12px 20px;
 				  margin: 8px 0;
@@ -463,7 +459,6 @@ if(isset($_GET["week"]))
 				width: 20%;
 				left: 10%;
 				top: 65%;
-				color: #fff;
 				border: 3px solid #ccc;
 				padding: 12px 20px;
 				  margin: 8px 0;
