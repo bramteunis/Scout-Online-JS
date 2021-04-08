@@ -377,11 +377,11 @@ if(isset($_GET["week"]))
 				  margin: 8px 0;
 				  box-sizing: border-box;
 				  outline: none;
-				 background: transparent;
+				 opacity: 0.75;
 					transition: border-color 0.2s;
 			}
 			::placeholder {
-			  color: white;
+			  color: black;
 			  opacity: 1; /* Firefox */
 			}
 			#name:focus{
