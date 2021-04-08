@@ -402,6 +402,7 @@ if(isset($_GET["week"]))
 				  box-sizing: border-box;
 				  outline: none;
 				opacity: 0.75;
+				color:black;
 					transition: border-color 0.2s;
 			}
 			#name2:focus{
