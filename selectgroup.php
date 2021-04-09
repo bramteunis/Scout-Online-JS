@@ -163,7 +163,7 @@
                         <!--Count Down-->
                         <div class="col-md-6">
                             <div class="text-center my-4">
-                                <div class="ts-count-down" data-date="April 20, 2021 23:59:59"><div><span class="ts-cc-number">26 </span><span class="ts-cc-description">Days</span></div><div><span class="ts-cc-number">10 </span><span class="ts-cc-description">Hours</span></div><div><span class="ts-cc-number">35 </span><span class="ts-cc-description">Minutes</span></div><div><span class="ts-cc-number">45 </span><span class="ts-cc-description">Seconds</span></div></div>
+                                <div class="ts-count-down" data-date="April 20, 2021 23:59:59"><div><span class="ts-cc-number">26 </span><span class="ts-cc-description">Dagen</span></div><div><span class="ts-cc-number">10 </span><span class="ts-cc-description">Uur</span></div><div><span class="ts-cc-number">35 </span><span class="ts-cc-description">Minuten</span></div><div><span class="ts-cc-number">45 </span><span class="ts-cc-description">Seconden</span></div></div>
                                 <!--end ts-count-down-->
                             </div>
                         </div>
