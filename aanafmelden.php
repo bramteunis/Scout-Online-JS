@@ -308,7 +308,7 @@ mysqli_close($connectie);
 			    top: 30%;
 			    left: 44%;
 			    margin-right: -50%;
-			    transform: translate(-50%, -50%);
+			    transform: translate(-30%, -30%);
 			    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 			    transform: scale(2);
 	 	}
