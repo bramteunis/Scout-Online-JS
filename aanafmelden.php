@@ -161,18 +161,27 @@ mysqli_close($connectie);
 </head>
 <nav class="nav">
         <div class="container">
-            <div class="logo">
+            <!--<div class="logo">
                 <a href="#"><img name= "image" src="Streamlineicons-Streamline-Ux-Free-Ecology-globe.ico" alt="Italian Trulli" width="128" height="128"></a>
+            -->
             </div>
             <div id="mainListDiv" class="main_list">
                 <ul class="navlinks">
-                    <li><a href="aanafmelden.php" style="color:green;"><b>Aan / afmelden</b></a></li>
-                    <li><a href="volgendeopkomst.php">Organisatie</a></li>
-                    <li><a href="zoka.php">Zoka</a></li>
-                    <li><a href="homescreen5.php">Terug</a></li>
+                    <li><a href="aanafmelden.php" style="color:green; font-size:300%"><b>Aan / afmelden</b></a></li>
+                    <li><a href="volgendeopkomst.php" style=" font-size:300%">Organisatie</a></li>
+                    <li><a href="zoka.php" style=" font-size:300%">Zoka</a></li>
+                    <li><a href="homescreen5.php" style="font-size:300%">Terug</a></li>
                 </ul>
             </div>
             <style type="text/css">
+                @media screen and (max-width: 600px) {
+                    .main_list.responsive {position: relative;}
+                    .main_list.responsive a {
+                        float: none;
+                        display: block;
+                        text-align: left;
+                    }
+                }
             	.currentmenu{
             		color: red;
             		font-weight: bold;
@@ -302,18 +311,22 @@ mysqli_close($connectie);
 	      
 	    </ul>
 	  </div>
-	 <style type="text/css">
-	 	.dropdown{
-	 		  position: absolute;
-			    top: 30%;
-			    left: 44%;
-			    margin-right: -50%;
-			    transform: translate(-50%, -50%);
-			    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-			    transform: scale(2);
-	 	}
+<style type="text/css">
+    .dropdown{
+        position: absolute;
+        background-color: rgba(255,0,0,.5);
+        top: 30%;
+        left: 38%;
+        margin-right: -40%;
+        transform: translate(-30%, -30%);
+        box-shadow: 0px 8px 16px 0px rgba(255,0,0,.2);
 
-	 </style>
+        transform: scale(3);
+
+
+    }
+
+</style>
     <section class="home">
     </section>
     
