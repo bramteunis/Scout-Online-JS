@@ -318,7 +318,7 @@ mysqli_close($connectie);
     </section>
     
         <!-- just to make scrolling effect possible -->
-			
+	
 
 <!-- Jquery needed -->
     
