@@ -310,7 +310,7 @@ mysqli_close($connectie);
 		  while($rij = mysqli_fetch_array($resultaat)){
 		  	$course_description3 = nl2br($rij[0]);
 		  	$bodytag = str_replace(";", ".", $course_description3);
-		    echo "<textarea id='text1' name='uitleg' rows='4' cols='50'>{$bodytag}</textarea>";
+		    echo "<textarea class='textbox1 informatie' name='uitleg' rows='4' cols='50'>{$bodytag}</textarea>";
 
 		  }
 
@@ -329,7 +329,7 @@ mysqli_close($connectie);
 		  	}else{
 		  		$course_description3 = "Afwezig";
 		  	}
-		    echo "<textarea id='text2' name='uitleg' rows='4' cols='50'>{$course_description3}</textarea>";
+		    echo "<textarea class='textbox1 aanwezigheid' name='uitleg' rows='4' cols='50'>{$course_description3}</textarea>";
 		    
 		  }
 
