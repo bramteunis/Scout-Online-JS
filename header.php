@@ -133,6 +133,4 @@ if ($gevonden != "Gevonden") {
 	header( "Location: $url" );
 }
 
-
-mysqli_close($connectie);
 ?>
