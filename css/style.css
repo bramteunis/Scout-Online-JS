@@ -1,36 +1,130 @@
-.myButton {
-  position: absolute;
-  top: 85%;
-  border-radius:42px;
-  display:inline-block;
-  color:#ffffff;
-  font-family:Arial;
-  font-size:28px;
-  font-weight:bold;
-  padding:32px 32px;
-  text-decoration:none;
-  width: 300px;
-  font-size: 4rem;
+@media only screen and (max-width: 535px) {
+  .myButton {
+    position: absolute;
+    top: 85%;
+    border-radius:42px;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:28px;
+    font-weight:bold;
+    padding:32px 32px;
+    text-decoration:none;
+    width: 300px;
+    font-size: 4rem;
+  }
+  .aanwezig{
+    left: 15%;
+    background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+    border:4px solid #18ab29;
+    text-shadow:0px 4px 0px #2f6627;
+    box-shadow: -2px 14px 14px -3px #3dc21b;
+  }
+  .myButton.aanwezig:hover {
+    background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+  }
+  .afwezig{
+    left: 55%;
+    background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+    border:4px solid #d02718;
+    text-shadow:0px 4px 0px #810e05;
+    box-shadow: -2px 14px 14px -3px #8a2a21;
+  }
+  .myButton.afwezig:hover {
+    background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+  }
+  .aanwezigheid{
+    top: 60%;
+    height: 20%;
+    font-size: 600%;
+  }
+  .informatie{
+    top: 15%;
+    height: 40%;
+    font-size: 500%;
+  }
+  .nav {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  .nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+    margin-left: 10%;
+  }
+  .nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 4rem;
+  }
 }
-.aanwezig{
-  left: 15%;
-  background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
-  border:4px solid #18ab29;
-  text-shadow:0px 4px 0px #2f6627;
-  box-shadow: -2px 14px 14px -3px #3dc21b;
-}
-.myButton.aanwezig:hover {
-  background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
-}
-.afwezig{
-  left: 55%;
-  background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
-  border:4px solid #d02718;
-  text-shadow:0px 4px 0px #810e05;
-  box-shadow: -2px 14px 14px -3px #8a2a21;
-}
-.myButton.afwezig:hover {
-  background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+
+@media only screen and (min-width: 535px) {
+  .myButton {
+    position: absolute;
+    top: 85%;
+    border-radius:42px;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:28px;
+    font-weight:bold;
+    padding:32px 32px;
+    text-decoration:none;
+    width: 300px;
+  }
+  .aanwezig{
+    left: 15%;
+    background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+    border:4px solid #18ab29;
+    text-shadow:0px 4px 0px #2f6627;
+    box-shadow: -2px 14px 14px -3px #3dc21b;
+  }
+  .myButton.aanwezig:hover {
+    background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+  }
+  .afwezig{
+    left: 68%;
+    background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+    border:4px solid #d02718;
+    text-shadow:0px 4px 0px #810e05;
+    box-shadow: -2px 14px 14px -3px #8a2a21;
+  }
+  .myButton.afwezig:hover {
+    background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+  }
+  .aanwezigheid{
+    top: 60%;
+    height: 20%;
+    font-size: 250%;
+  }
+  .informatie{
+    top: 15%;
+    height: 40%;
+    font-size: 200%;
+  }
+  .nav {
+    padding-bottom: 20px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+  }
+  .nav div.logo {
+    float: left;
+    width: auto;
+    height: auto;
+    padding-left: 3rem;
+  }
+  .nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 3rem;
+  }
 }
 
 .button {
@@ -75,16 +169,7 @@
     resize: none;
     opacity: 0.75;
 }
-.informatie{
-  top: 15%;
-  height: 40%;
-  font-size: 500%;
-}
-.aanwezigheid{
-  top: 60%;
-  height: 20%;
-  font-size: 600%;
-}
+
 
 #name{
   position: absolute;
@@ -225,14 +310,6 @@ body {
   top:0%;
 }
 
-.nav div.logo {
-  float: left;
-  width: auto;
-  height: auto;
-  padding-left: 3rem;
-  margin-left: 10%;
-}
-
 .nav div.logo a {
   text-decoration: none;
   color: #fff;
@@ -266,13 +343,6 @@ body {
   padding-right: 3rem;
 }
 
-.nav div.main_list ul li a {
-  text-decoration: none;
-  color: #fff;
-  line-height: 65px;
-  font-size: 4rem;
-}
-
 .nav div.main_list ul li a:hover {
   color: #00E676;
 }
@@ -290,11 +360,6 @@ body {
   display: none;
 }
 
-.nav {
-  padding-top: 100px;
-  padding-bottom: 20px;
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
-}
+
 
 
