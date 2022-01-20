@@ -1,5 +1,5 @@
 
-@media (min-width: 535px) {
+@media(min-width: 535px) {
   .myButton {
     position: absolute;
     top: 85%;
@@ -62,7 +62,7 @@
   }
 }
 
-@media (max-width: 535px) {
+@media(max-width: 535px) {
   .myButton {
     position: absolute;
     top: 85%;
