@@ -353,10 +353,10 @@ mysqli_close($connectie);
 
 	     
 	    echo "<form method='POST' action='volgendeopkomst3.php?week={$week}'>"; 
-	    echo "<input type='submit' class='myButton' value='Aanwezig'>  ";
+	    echo "<input type='submit' class='myButton aanwezig' value='Aanwezig'>  ";
 	    echo "</form>";
 	    echo "<form method='POST' action='volgendeopkomst4.php?week={$week}'>"; 
-		echo "<input type='submit' class='myButton2' value='Afwezig'>  ";
+		echo "<input type='submit' class='myButton afwezig' value='Afwezig'>  ";
 		echo "</form>";
 		?>    
 	</form>
