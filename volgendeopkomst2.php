@@ -127,30 +127,19 @@ while($rij = mysqli_fetch_array($resultaat)){
         break;
       }else{
         $gevonden = "Niet Gevonden";
-        debug_to_console($gevonden);
       }
     }else{
       $gevonden = "Niet Gevonden";
-      debug_to_console($gevonden);
     }
   }
 
-
-
 if ($gevonden != "Gevonden") {
-ob_start(); // ensures anything dumped out will be caught
-
-// do stuff here
-$url = 'http://bramt.veluwscollege.net/scouting/index.html'; 
-
-// clear out the output buffer
-while (ob_get_status()) 
-{
-    ob_end_clean();
-}
-
-// no redirect
-header( "Location: $url" );
+	ob_start(); 
+	$url = 'https://scoutonlinesite1.herokuapp.com/index.php'; 
+	while (ob_get_status()){
+	    ob_end_clean();
+	}
+	header( "Location: $url" );
 }
 
 
@@ -361,23 +350,6 @@ mysqli_close($connectie);
     	
     </section>
 
-    <script>
-        $(window).scroll(function() {
-            if ($(document).scrollTop() > 50) {
-                $('.nav').addClass('affix');
-                console.log("OK");
-            } else {
-                $('.nav').removeClass('affix');
-            }
-        });
-        $('.navTrigger').click(function () {
-		    $(this).toggleClass('active');
-		    console.log("Clicked menu");
-		    $("#mainListDiv").toggleClass("show_list");
-		    $("#mainListDiv").fadeIn();
-
-		});
-    </script>
 
 
 </html>
