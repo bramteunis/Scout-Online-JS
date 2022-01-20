@@ -9,7 +9,7 @@ if(isset($_GET["week"]))
 ?>
 <html>
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <nav class="nav">
@@ -35,81 +35,66 @@ if(isset($_GET["week"]))
     <?php 
 	function read_data($table,$row,$where1,$where2){
 		$query = "SELECT $row FROM $table WHERE $where1 = '{$where2}'";
-
-		  if(!$resultaat = mysqli_query($connectie, $query) ) {
-		    $boodschap .=  "query\" $query\" mislukt!"; 
-		  } else{
-		    $boodschap .= "query gelukt";
-		  }
-		  
-		  while($rij = mysqli_fetch_array($resultaat)){
+		if(!$resultaat = mysqli_query($connectie, $query) ) {
+		    	$boodschap .=  "query\" $query\" mislukt!"; 
+		} else{
+			$boodschap .= "query gelukt";
+		}
+		while($rij = mysqli_fetch_array($resultaat)){
 		  	echo $rij[0];
-		  }
+		}
 	}
 
-	function aanwezig()
-		{
-			$sql = "UPDATE {$group} SET week{$week} = '0' WHERE naam='{$input1}'";
-		    if ($connectie->query($sql) === TRUE) {
-		      echo "Record updated successfully";
-		      header("Refresh:0");
-		    } else {
-		      echo "Error updating record: " . $connectie->error;
-		    }
+	function aanwezig(){
+		$sql = "UPDATE {$group} SET week{$week} = '0' WHERE naam='{$input1}'";
+		if ($connectie->query($sql) === TRUE) {
+		      	header("Refresh:0");
+		} else {
+		      	echo "Error updating record: " . $connectie->error;
 		}
-	function afwezig()
-		{
-			$sql = "UPDATE {$group} SET week{$week} = '1' WHERE naam='{$input1}'";
-		    if ($connectie->query($sql) === TRUE) {
-		      echo "Record updated successfully";
-		      header("Refresh:0");
-		    } else {
-		      echo "Error updating record: " . $connectie->error;
-		    }
+	}
+	function afwezig(){
+		$sql = "UPDATE {$group} SET week{$week} = '1' WHERE naam='{$input1}'";
+		if ($connectie->query($sql) === TRUE) {
+		      	header("Refresh:0");
+		} else {
+		      	echo "Error updating record: " . $connectie->error;
 		}
-		  	$query = "SELECT opkomstbechrijving FROM {$group}_opkomst WHERE regel = '{$week}'";
-
-		  if(!$resultaat = mysqli_query($connectie, $query) ) {
-		    $boodschap .=  "query\" $query\" mislukt!"; 
-		  } else{
-		    $boodschap .= "query gelukt";
-		  }
-		  
-		  while($rij = mysqli_fetch_array($resultaat)){
-		  	$course_description3 = nl2br($rij[0]);
-		  	$bodytag = str_replace(";", ".", $course_description3);
-		    echo "<textarea class='textbox1 informatie' name='uitleg' rows='4' cols='50'>{$bodytag}</textarea>";
-
-		  }
-
-		  $query = "SELECT week{$week} FROM {$group} WHERE naam = '{$getal1}'";
-
-		  if(!$resultaat = mysqli_query($connectie, $query) ) {
-		    $boodschap .=  "query\" $query\" mislukt!"; 
-		  } else{
-		    $boodschap .= "query gelukt";
-		  }
-		  
-		  while($rij = mysqli_fetch_array($resultaat)){
-		  	$course_description3 = nl2br($rij[0]);
-		  	if ($course_description3 == "0") {
-		  		$course_description3 = "Aanwezig";
-		  	}else{
-		  		$course_description3 = "Afwezig";
-		  	}
-		    echo "<textarea class='textbox1 aanwezigheid' name='uitleg' rows='4' cols='50'>{$course_description3}</textarea>";
-		    
-		  }
-
-		  mysqli_close($connectie);
-
-	     
-	    echo "<form method='POST' action='volgendeopkomst3.php?week={$week}'>"; 
-	    echo "<input type='submit' class='myButton aanwezig' value='Aanwezig'>  ";
-	    echo "</form>";
-	    echo "<form method='POST' action='volgendeopkomst4.php?week={$week}'>"; 
-		echo "<input type='submit' class='myButton afwezig' value='Afwezig'>  ";
-		echo "</form>";
+	}
+	$query = "SELECT opkomstbechrijving FROM {$group}_opkomst WHERE regel = '{$week}'";
+	if(!$resultaat = mysqli_query($connectie, $query) ) {
+		$boodschap .=  "query\" $query\" mislukt!"; 
+	} else{
+		$boodschap .= "query gelukt";
+	}
+	while($rij = mysqli_fetch_array($resultaat)){
+		$course_description3 = nl2br($rij[0]);
+		$bodytag = str_replace(";", ".", $course_description3);
+		echo "<textarea class='textbox1 informatie' name='uitleg' rows='4' cols='50'>{$bodytag}</textarea>";
+	}
+	$query = "SELECT week{$week} FROM {$group} WHERE naam = '{$getal1}'";
+			
+	if(!$resultaat = mysqli_query($connectie, $query) ) {
+		$boodschap .=  "query\" $query\" mislukt!"; 
+	} else{
+		$boodschap .= "query gelukt";
+	}
+	while($rij = mysqli_fetch_array($resultaat)){
+		$course_description3 = nl2br($rij[0]);
+		if ($course_description3 == "0") {
+			$course_description3 = "Aanwezig";
+		}else{
+		  	$course_description3 = "Afwezig";
+		}
+		echo "<textarea class='textbox1 aanwezigheid' name='uitleg' rows='4' cols='50'>{$course_description3}</textarea>";
+	}
+	mysqli_close($connectie);
+	echo "<form method='POST' action='volgendeopkomst3.php?week={$week}'>"; 
+	echo "<input type='submit' class='myButton aanwezig' value='Aanwezig'>  ";
+	echo "</form>";
+	echo "<form method='POST' action='volgendeopkomst4.php?week={$week}'>"; 
+	echo "<input type='submit' class='myButton afwezig' value='Afwezig'>  ";
+	echo "</form>";
 		?>    
 	</form>
 	<style type="text/css">
