@@ -66,7 +66,7 @@ if(isset($_GET["week"]))
 		  
 		  while($rij = mysqli_fetch_array($resultaat)){
 		  	$course_description3 = nl2br($rij[0]);
-		    echo "<textarea id='text1 opkomstinformatieinvullen' class='opkomstinformatieinvullen' name='uitleg' rows='4' cols='50'>{$course_description3}</textarea>";
+		    echo "<textarea id='text1' class='opkomstinformatieinvullen' name='uitleg' rows='4' cols='50'>{$course_description3}</textarea>";
 		  }
 
 		  mysqli_close($connectie);
