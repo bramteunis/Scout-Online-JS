@@ -32,7 +32,14 @@ ini_set('session.cookie_lifetime', 60 * 60 * 24 * 7);
 	ini_set('session.save_path', 'sessions');	
 	session_start();
 $group = $_SESSION['group'];
-
+	  
+if(!isset($_COOKIE["group_name"])) {
+    echo "Cookie named '" . "group_name" . "' is not set!";
+} else {
+    echo "Cookie '" . "group_name" . "' is set!<br>";
+    echo "<h1>Value is: " . $_COOKIE["group_name"]."</h1>";
+}
+	  
 if($group == "beversochtend"){
   $server = "eu-cdbr-west-03.cleardb.net";
   $database = "heroku_b6ccf5347f986b7";
