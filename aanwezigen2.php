@@ -3,12 +3,12 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-Debug_to_console("5");
+debug_to_console("5");
 if(isset($_GET["week"]))
     {
         $week = $_GET["week"];
     }
-Debug_to_console("6");
+debug_to_console("6");
 ?>
 <html>
 <head>
@@ -28,7 +28,7 @@ Debug_to_console("6");
         </div>
     </nav>
     <?php 
-	Debug_to_console("1");
+	debug_to_console("1");
     	echo "<form method='POST' action='aanafmelden3.php?week={$week}'>";
 	for ($j=1; $j < 30; $j++) { 
 		$query = "SELECT week{$week} FROM {$group} WHERE gebruiker = 'gebruiker{$j}'";
@@ -44,7 +44,7 @@ Debug_to_console("6");
 		  }else{
 			$rij2[0] = "Afwezig";
 		  }
-		  Debug_to_console("2");
+		  debug_to_console("2");
 		  $query = "SELECT naam FROM {$group} WHERE gebruiker = 'gebruiker{$j}'";
 		  if(!$resultaat = mysqli_query($connectie, $query) ) {
 		    $boodschap .=  "query\" $query\" mislukt!"; 
@@ -55,7 +55,7 @@ Debug_to_console("6");
 		  $rij = mysqli_fetch_array($resultaat);
 		  $print3 = $rij[0]." = ".$rij2[0]."\n".$print3;
 	}
-			Debug_to_console("3");
+			debug_to_console("3");
 	    echo "<textarea id='text1' name='uitleg' rows='4' cols='50'>{$print3}</textarea>";
 	  mysqli_close($connectie);
 
