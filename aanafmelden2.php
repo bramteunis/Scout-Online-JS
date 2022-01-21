@@ -22,12 +22,12 @@ if(isset($_GET["week"]))
             <div class="logo" id='logoorganisatie'>
                 <a href="#"><img name= "image" src="Streamlineicons-Streamline-Ux-Free-Ecology-globe.ico" alt="Italian Trulli" width="128" height="128"></a>
             </div>
-            <div id="mainListDiv" class="main_list">
+            <div id="mainListDivorganisatie" class="main_list">
                 <ul class="navlinks">
-                    <li><a href="#">Invalleiding aanvragen</a></li>
-                    <li><a href="#">Opkomst ideën</a></li>
-                    <?php echo "<li><a href='aanwezigen.php?week={$week}'>Aanwezigen</a></li>" ?>
-                    <li><a href="aanafmelden.php">Terug</a></li>
+                    <li><a id='organisatielinkjes' href="#">Invalleiding aanvragen</a></li>
+                    <li><a id='organisatielinkjes' href="#">Opkomst ideën</a></li>
+                    <?php echo "<li><a id='organisatielinkjes' href='aanwezigen.php?week={$week}'>Aanwezigen</a></li>" ?>
+                    <li><a id='organisatielinkjes' href="aanafmelden.php">Terug</a></li>
                 </ul>
             </div>
         </div>
