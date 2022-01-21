@@ -144,6 +144,17 @@
   .opkomstinformatieinvullen{
     width: 55%;
     left: 35%;
+    top: 20%;
+    position: absolute;
+    height: 70%;
+    padding: 17px 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    background-color: #f8f8f8;
+    resize: none;
+    opacity: 0.75;
+    font-size: 190%;
   }
 }
 
@@ -311,6 +322,17 @@
   .opkomstinformatieinvullen{
     width: 80%;
     left: 10%;
+    top: 20%;
+    position: absolute;
+    height: 70%;
+    padding: 17px 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    background-color: #f8f8f8;
+    resize: none;
+    opacity: 0.75;
+    font-size: 190%;
   }
 }
 
