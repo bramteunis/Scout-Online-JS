@@ -65,6 +65,21 @@
     margin-right: 13%;
     margin-top: 30px;
   }
+  #text1{
+      left: 35%;
+      top: 25%;
+      position: absolute;
+      width: 50%;
+      height: 50%;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      background-color: #f8f8f8;
+      resize: none;
+      opacity: 0.75;
+      font-size: 180%;
+  }
 }
 
 @media(max-width: 535px) {
