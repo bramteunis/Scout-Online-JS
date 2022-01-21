@@ -28,9 +28,8 @@ debug_to_console("6");
         </div>
     </nav>
     <?php 
-	debug_to_console("1");
     	echo "<form method='POST' action='aanafmelden3.php?week={$week}'>";
-	for ($j=1; $j < 30; $j++) { 
+	for ($j=1; $j < 100; $j++) { 
 		$query = "SELECT week{$week} FROM {$group} WHERE gebruiker = 'gebruiker{$j}'";
 		  if(!$resultaat = mysqli_query($connectie, $query) ) {
 		    $boodschap .=  "query\" $query\" mislukt!"; 
@@ -44,7 +43,6 @@ debug_to_console("6");
 		  }else{
 			$rij2[0] = "Afwezig";
 		  }
-		  debug_to_console("2");
 		  $query = "SELECT naam FROM {$group} WHERE gebruiker = 'gebruiker{$j}'";
 		  if(!$resultaat = mysqli_query($connectie, $query) ) {
 		    $boodschap .=  "query\" $query\" mislukt!"; 
@@ -53,9 +51,11 @@ debug_to_console("6");
 		  }
 		  $i = $j - 1;
 		  $rij = mysqli_fetch_array($resultaat);
+		  if($rij[0]==""){
+		  	break;
+		  }
 		  $print3 = $rij[0]." = ".$rij2[0]."\n".$print3;
 	}
-			debug_to_console("3");
 	    echo "<textarea id='text1' name='uitleg' rows='4' cols='50'>{$print3}</textarea>";
 	  mysqli_close($connectie);
 
