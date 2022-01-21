@@ -209,6 +209,18 @@
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
+  #mainListDivorganisatie{
+    height: 65px;
+    float: right;
+    margin-top: -68px;
+    width: 100%;
+  }
+  #organisatielinkjes{
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    font-size: 1.3rem;
+  }
 }
 
 .inputfield{
@@ -221,11 +233,11 @@
     margin: 8px 0;
     box-sizing: border-box;
     outline: none;
-   background: transparent;
+   background: rgba(255,255,255,0.7);
     transition: border-color 0.2s;
 }
 .inputfield::placeholder {
-  color: white;
+  color: black;
   opacity: 1; /* Firefox */
 }
 .inputfield:focus{
