@@ -101,7 +101,7 @@
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
-  .opkomstinformatieinvullen{
+  #opkomstinformatieinvullen{
     width: 55%;
     left: 35%;
   }
@@ -253,7 +253,7 @@
     line-height: 65px;
     font-size: 1.3rem;
   }
-  .opkomstinformatieinvullen{
+  #opkomstinformatieinvullen{
     width: 80%;
     left: 10%;
   }
