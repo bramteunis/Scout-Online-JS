@@ -75,7 +75,7 @@ if(isset($_GET["week"]))
 	while($rij = mysqli_fetch_array($resultaat)){
 		$course_description3 = nl2br($rij[0]);
 		$bodytag = str_replace(";", ".", $course_description3);
-		echo "<textarea class='textbox1 informatie' name='uitleg' rows='4' cols='50'>{$bodytag}</textarea>";
+		echo "<textarea readonly class='textbox1 informatie' name='uitleg' rows='4' cols='50'>{$bodytag}</textarea>";
 	}
 	$query = "SELECT week{$week} FROM {$group} WHERE naam = '{$getal1}'";
 			
@@ -91,7 +91,7 @@ if(isset($_GET["week"]))
 		}else{
 		  	$course_description3 = "Afwezig";
 		}
-		echo "<textarea class='textbox1 aanwezigheid' name='uitleg' rows='4' cols='50'>{$course_description3}</textarea>";
+		echo "<textarea readonly class='textbox1 aanwezigheid' name='uitleg' rows='4' cols='50'>{$course_description3}</textarea>";
 	}
 	mysqli_close($connectie);
 	echo "<form method='POST' action='volgendeopkomst3.php?week={$week}'>"; 
