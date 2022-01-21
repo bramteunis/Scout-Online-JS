@@ -2,16 +2,23 @@
 if(isset($_GET["group"]))
     {
         $group = $_GET["group"];
+	
 	ini_set('session.cookie_lifetime', 60 * 60 * 24 * 7);
 	ini_set('session.gc_maxlifetime', 60 * 60 * 24 * 7);
 	ini_set('session.save_path', 'sessions');	
 	session_start();
 	$_SESSION['group'] = $group;
+	setcookie("group_name", $group, time() + (86400 * 30), "/"); // 86400 = 1 day
     }else{
     	header("Location: selectgroup.php");
     }
 
-
+if(!isset($_COOKIE["group_name"])) {
+    echo "Cookie named '" . "group_name" . "' is not set!";
+} else {
+    echo "Cookie '" . "group_name" . "' is set!<br>";
+    echo "<h1>Value is: " . $_COOKIE["group_name"]."</h1>";
+}
 
 
 ?>
