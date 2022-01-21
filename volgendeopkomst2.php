@@ -41,7 +41,7 @@ if(isset($_GET["week"]))
 			$boodschap .= "query gelukt";
 		}
 		while($rij = mysqli_fetch_array($resultaat)){
-		  	echo $rij[0];
+		  	return $rij[0];
 		}
 	}
 
@@ -61,6 +61,8 @@ if(isset($_GET["week"]))
 		      	echo "Error updating record: " . $connectie->error;
 		}
 	}
+	debug_to_console(read_data($group.'_opkomst', 'opkomstbechrijving','regel',$week));
+			
 	$query = "SELECT opkomstbechrijving FROM {$group}_opkomst WHERE regel = '{$week}'";
 	if(!$resultaat = mysqli_query($connectie, $query) ) {
 		$boodschap .=  "query\" $query\" mislukt!"; 
