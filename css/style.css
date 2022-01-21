@@ -249,7 +249,13 @@
 .field5{
   top: 65%;
 }
-
+#logoorganisatie{
+  margin-left: -10%;
+}
+.opkomstinformatieinvullen{
+  width: 55%;
+  left: 35%;
+}
 #text1{
     left: 15%;
     top: 20%;
