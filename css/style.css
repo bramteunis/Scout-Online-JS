@@ -101,10 +101,6 @@
     color: white;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   }
-  #opkomstinformatieinvullen{
-    width: 55%;
-    left: 35%;
-  }
   .field1{
     top: 25%;
     left: 10%;
@@ -129,6 +125,25 @@
     top: 65%;
     left: 10%;
     width: 20%;
+  }
+  #text1{
+    left: 15%;
+    top: 20%;
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    padding: 17px 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    background-color: #f8f8f8;
+    resize: none;
+    opacity: 0.75;
+    font-size: 190%;
+  }
+  .opkomstinformatieinvullen{
+    width: 55%;
+    left: 35%;
   }
 }
 
@@ -253,10 +268,6 @@
     line-height: 65px;
     font-size: 1.3rem;
   }
-  #opkomstinformatieinvullen{
-    width: 80%;
-    left: 10%;
-  }
   .field1{
     top: 95%;
     left: 5%;
@@ -281,6 +292,25 @@
     top: 115%;
     left: 5%;
     width: 40%;
+  }
+  #text1{
+    left: 15%;
+    top: 20%;
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    padding: 17px 40px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 40px;
+    background-color: #f8f8f8;
+    resize: none;
+    opacity: 0.75;
+    font-size: 190%;
+  }
+  .opkomstinformatieinvullen{
+    width: 80%;
+    left: 10%;
   }
 }
 
@@ -311,21 +341,7 @@
   margin-left: -10%;
 }
 
-#text1{
-    left: 15%;
-    top: 20%;
-    position: absolute;
-    width: 70%;
-    height: 70%;
-    padding: 17px 40px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 40px;
-    background-color: #f8f8f8;
-    resize: none;
-    opacity: 0.75;
-    font-size: 190%;
-  }
+
 
 .textbox1{
     left: 15%;
