@@ -16,7 +16,7 @@ include 'header.php';
 </head>
 <nav class="nav">
         <div class="container">
-            <div class="logo">
+            <div id="logoaanafmelden" class="logo">
                 <a href="#"><img name= "image" src="Streamlineicons-Streamline-Ux-Free-Ecology-globe.ico" alt="Italian Trulli" width="128" height="128"></a>
             </div>
             <div id="mainListDiv" class="main_list">
