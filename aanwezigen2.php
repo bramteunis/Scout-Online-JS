@@ -6,7 +6,8 @@ if(isset($_GET["week"]))
 ?>
 <html>
 <head>
-	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="css/style.css">
 </head>
 <nav class="nav">
         <div class="container">
