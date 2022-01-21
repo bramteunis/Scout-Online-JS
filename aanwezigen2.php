@@ -22,7 +22,7 @@ if(isset($_GET["week"]))
     </nav>
     <?php 
     	echo "<form method='POST' action='aanafmelden3.php?week={$week}'>";
-	for ($j=1; $j < 100; $j++) { 
+	for ($j=1; $j < 30; $j++) { 
 		$query = "SELECT week{$week} FROM {$group} WHERE gebruiker = 'gebruiker{$j}'";
 		  if(!$resultaat = mysqli_query($connectie, $query) ) {
 		    $boodschap .=  "query\" $query\" mislukt!"; 
@@ -44,9 +44,6 @@ if(isset($_GET["week"]))
 		  }
 		  $i = $j - 1;
 		  $rij = mysqli_fetch_array($resultaat);
-		  if($rij[0]==""){
-		  	break;
-		  }
 		  $print3 = $rij[0]." = ".$rij2[0]."\n".$print3;
 	}
 	    echo "<textarea id='text1' name='uitleg' rows='4' cols='50'>{$print3}</textarea>";
