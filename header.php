@@ -1,5 +1,5 @@
 <?php
-session_start();
+
 $group = $_SESSION['group'];
 
 function debug_to_console($data) {
