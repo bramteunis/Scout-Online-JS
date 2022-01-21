@@ -19,7 +19,7 @@ if(isset($_GET["week"]))
 </head>
 <nav class="nav">
         <div class="container">
-            <div class="logo">
+            <div class="logo" id='logoorganisatie'>
                 <a href="#"><img name= "image" src="Streamlineicons-Streamline-Ux-Free-Ecology-globe.ico" alt="Italian Trulli" width="128" height="128"></a>
             </div>
             <div id="mainListDiv" class="main_list">
@@ -66,7 +66,7 @@ if(isset($_GET["week"]))
 		  
 		  while($rij = mysqli_fetch_array($resultaat)){
 		  	$course_description3 = nl2br($rij[0]);
-		    echo "<textarea id='text1' name='uitleg' rows='4' cols='50'>{$course_description3}</textarea>";
+		    echo "<textarea id='text1' class='opkomstinformatieinvullen' name='uitleg' rows='4' cols='50'>{$course_description3}</textarea>";
 		  }
 
 		  mysqli_close($connectie);
