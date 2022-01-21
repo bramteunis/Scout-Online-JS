@@ -2,15 +2,16 @@
 if(isset($_GET["group"]))
     {
         $group = $_GET["group"];
+	ini_set('session.cookie_lifetime', 60 * 60 * 24 * 7);
+	ini_set('session.gc_maxlifetime', 60 * 60 * 24 * 7);
+	ini_set('session.save_path', 'sessions');	
+	session_start();
+	$_SESSION['group'] = $group;
     }else{
     	header("Location: selectgroup.php");
     }
 
-ini_set('session.cookie_lifetime', 60 * 60 * 24 * 7);
-ini_set('session.gc_maxlifetime', 60 * 60 * 24 * 7);
-ini_set('session.save_path', 'sessions');	
-session_start();
-$_SESSION['group'] = $group;
+
 
 
 ?>
@@ -110,6 +111,5 @@ $_SESSION['group'] = $group;
 <!--===============================================================================================-->
 	<script src="main.js"></script>
 
-
-
+<?php  echo "<script>console.log('Debug Objects: " . $_SESSION['group'] . "' );</script>"; ?>
 </body></html>
