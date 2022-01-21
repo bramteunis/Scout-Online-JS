@@ -54,7 +54,7 @@ debug_to_console("6");
 		  }
 		  $print3 = $rij[0]." = ".$rij2[0]."\n".$print3;
 	}
-	    echo "<textarea id='text1' name='uitleg' rows='4' cols='50'>{$print3}</textarea>";
+	    echo "<textarea readonly id='text1' name='uitleg' rows='4' cols='50'>{$print3}</textarea>";
 	  mysqli_close($connectie);
 
 	    ?>           
