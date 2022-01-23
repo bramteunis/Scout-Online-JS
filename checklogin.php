@@ -144,7 +144,7 @@ if(!$connectie = mysqli_connect($server,$username,$wachtwoord,$database) ) {
     //echo '<meta http-equiv="refresh" content="0; url=selectgroup.php" />';
    //header( "Location: $url" );    
   }else{
-      print("Gevonden of niet2 is:".$gevonden);
-  //echo '<meta http-equiv="refresh" content="0; url=homescreen4.php" />';
+  print("Gevonden of niet2 is:".$gevonden);
+  echo '<meta http-equiv="refresh" content="0; url=homescreen4.php" />';
   }
 ?>
