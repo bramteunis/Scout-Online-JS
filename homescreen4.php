@@ -31,13 +31,13 @@ ini_set('session.cookie_lifetime', 60 * 60 * 24 * 7);
 	ini_set('session.gc_maxlifetime', 60 * 60 * 24 * 7);
 	ini_set('session.save_path', 'sessions');	
 	session_start();
-$group = $_SESSION['group'];
+//$group = $_SESSION['group'];
 	  
 if(!isset($_COOKIE["group_name"])) {
     echo "Cookie named '" . "group_name" . "' is not set!";
 } else {
-    echo "Cookie '" . "group_name" . "' is set!<br>";
-    echo "<h1>Value is: " . $_COOKIE["group_name"]."</h1>";
+    //echo "Cookie '" . "group_name" . "' is set!<br>";
+    $group = $_COOKIE["group_name"];
 }
 	  
 if($group == "beversochtend"){
@@ -137,6 +137,8 @@ if($group == "stam2"){
   $a[] = $getal2;
   $_SESSION['email'] = $getal5;
   $_SESSION['password'] = $getal2;
+  setcookie("email", $getal5, time() + (86400 * 30), "/");
+  setcookie("password", $getal2, time() + (86400 * 30), "/");
 debug_to_console($group);
   $query = "SELECT * FROM {$group}";
 
