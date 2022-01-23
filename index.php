@@ -51,7 +51,7 @@ if(!isset($_COOKIE["group_name"])) {
 				<div class="login100-pic js-tilt" data-tilt="" style="will-change: transform; transform: perspective(300px) rotateX(0deg) rotateY(0deg);">
 					<img src="img-01.png" alt="IMG">
 				</div>
-				<form method="POST" action="homescreen4.php">
+				<form method="POST" action="checklogin.php.php">
 					
 						<span class="login100-form-title">
 							Leden Login
