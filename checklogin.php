@@ -13,6 +13,7 @@ error_reporting(E_ALL);
 
 $getal1 = $_POST["email"];
 $getal2 = $_POST["pass"];
+print($getal1.":".$getal2);
 $getal5 = str_replace('ë', 'e', $getal1);
 $getal3 = strtolower($getal5);
 $getal4 = ucfirst($getal5);
@@ -145,9 +146,9 @@ if(!$connectie = mysqli_connect($server,$username,$wachtwoord,$database) ) {
     {
         ob_end_clean();
     }
-    echo '<meta http-equiv="refresh" content="0; url=selectgroup.php" />';
+    //echo '<meta http-equiv="refresh" content="0; url=selectgroup.php" />';
    //header( "Location: $url" );    
   }else{
-  echo '<meta http-equiv="refresh" content="0; url=homescreen4.php" />';
+  //echo '<meta http-equiv="refresh" content="0; url=homescreen4.php" />';
   }
 ?>
