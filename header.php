@@ -1,6 +1,6 @@
 <?php
 
-$group = $_SESSION['group'];
+//$group = $_SESSION['group'];
 
 function debug_to_console($data) {
     $output = $data;
@@ -9,7 +9,13 @@ function debug_to_console($data) {
 
     echo "<script>console.log('Debug Objects: " . $output . "' );</script>";
 }
-
+if(!isset($_COOKIE["group_name"])) {
+    debug_to_console("group not found");
+    $group = $_SESSION['group'];
+} else {
+    //echo "Cookie '" . "group_name" . "' is set!<br>";
+    $group = $_COOKIE["group_name"];
+}
 
 if($group == "beversochtend"){
   $server = "eu-cdbr-west-03.cleardb.net";
@@ -94,8 +100,22 @@ if(!$connectie = mysqli_connect($server,$username,$wachtwoord,$database) ) {
   $boodschap = "Verbinding is gelukt<br>";
 }
 
-$getal1 = $_SESSION['email'] ;
-$getal2 = $_SESSION['password'];
+
+
+if(!isset($_COOKIE["email"])) {
+    $getal1 = $_SESSION['email'] ;
+    debug_to_console("email not set");
+} else {
+    //echo "Cookie '" . "group_name" . "' is set!<br>";
+    $getal1 = $_COOKIE["email"];
+}
+if(!isset($_COOKIE["password"])) {
+    $getal2 = $_SESSION['password'];
+    debug_to_console("password not set");
+} else {
+    //echo "Cookie '" . "group_name" . "' is set!<br>";
+    $getal2 = $_COOKIE["password"];
+}
 $a[] = $getal1;
 $a[] = $getal2;
 
