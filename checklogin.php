@@ -140,15 +140,11 @@ if(!$connectie = mysqli_connect($server,$username,$wachtwoord,$database) ) {
     }
   }
   if ($gevonden != "Gevonden") {
-    ob_start(); // ensures anything dumped out will be caught
-    $url = 'selectgroup.php'; 
-    while (ob_get_status()) 
-    {
-        ob_end_clean();
-    }
+      print("Gevonden of niet is:".$gevonden);
     //echo '<meta http-equiv="refresh" content="0; url=selectgroup.php" />';
    //header( "Location: $url" );    
   }else{
+      print("Gevonden of niet2 is:".$gevonden);
   //echo '<meta http-equiv="refresh" content="0; url=homescreen4.php" />';
   }
 ?>
