@@ -1,0 +1,2 @@
+### **Project Description:**  
+**Scout-Online-JS** is a **JavaScript** application designed for scouts and scout leaders to easily manage their yearly schedules, plan activities, and track availability. The app offers a user-friendly interface where users can create and organize events, coordinate group activities, and keep everyone updated in real-time. Whether you're planning camping trips, meetings, or special events, **Scout-Online** helps streamline scouting logistics for a more organized and fun experience.
